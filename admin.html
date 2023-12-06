@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Panel de Administrador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+    <div id="adminPanel" class="container" style="display: none;">
+        <h1>Panel de Administrador</h1>
+        
+        <ul id="dataList"></ul>
+
+        <div id="editFormContainer" style="display: none;">
+            <h2>Editar Datos</h2>
+            <!-- Agrega un formulario de edición aquí -->
+            <form id="editForm">
+                <label for="editTitle">Título</label>
+                <input type="text" id="editTitle" name="editTitle">
+
+                <label for="editLink">Enlace</label>
+                <input type="text" id="editLink" name="editLink">
+
+                <label for="editDescription">Descripción</label>
+                <input type="text" id="editDescription" name="editDescription">
+
+                <!-- Otros campos según tu estructura de datos -->
+
+                <button type="button" id="saveEdit">Guardar Cambios</button>
+                <button type="button" id="cancelEdit">Cancelar</button>
+            </form>
+        </div>
+
+        <!-- Otras secciones de contenido pueden ir aquí -->
+    </div>
+
+    <!-- Otras secciones de contenido pueden ir aquí -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>

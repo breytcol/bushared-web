@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h1>Login</h1>
+        <form id="loginForm" class="form" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="iniciarSesion()">Iniciar sesión</button>
+        </form>
+        <p id="loginMessage"></p>
+
+        <p>¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+		<p>¿Volver? <a href="index.html">Inicio</a></p>
+    </div>
+
+    <!-- Sección para mostrar la información del usuario después del inicio de sesión -->
+    <div id="userInfo-container" class="container" style="display: none;">
+        <h1>Información del Usuario</h1>
+        <p id="userInfo"></p>
+        <a href="#" id="logout" onclick="cerrarSesion()">Cerrar sesión</a>
+		<body>
+    <div id="loading">
+        <div>Loading...</div>
+    </div>
+    <div id="notification"></div>
+
+    <div id="page-wrap">
+        <h2>Listado de la Base de Datos</h2>
+        <ul id="database-list"></ul>
+    </div>
+
+    <script src="js/list.js"></script>
+
+    <div 
+    </div>
+</body>
+</html>

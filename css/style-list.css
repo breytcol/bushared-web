@@ -1,0 +1,72 @@
+/* Agrega los estilos según tus preferencias */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Fondo verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+#loading {
+    display: none;
+}
+
+#database-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.list-item a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+
+.edit-button, .delete-button {
+    background-color: #28a745; /* Verde */
+    color: #ffffff; /* Texto blanco */
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#page-wrap {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}

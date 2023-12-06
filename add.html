@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Añadir</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/add.js"></script>
+</head>
+<body>
+    <div id="registro-container" class="container">
+        <h2>Añadir</h2>
+        <form id="addForm" class="form-horizontal" method="post">
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" placeholder="Título" id="titulo" class="input-xlarge" required>
+
+            <label for="link">Link:</label>
+            <input type="text" name="link" placeholder="Link" id="link" class="input-xlarge" required>
+
+            <label for="descripcion">Descripción:</label>
+            <input type="text" name="desc" placeholder="Descripción" id="descripcion" class="input-xlarge" required>
+
+            <label for="claves">Palabras Claves:</label>
+            <input type="text" name="claves" placeholder="Palabras Claves" id="claves" class="input-xlarge" required>
+
+            <button type="submit" name="submit" class="btn"><i class="icon-plus"></i> Añadir</button>
+        </form>
+
+        <hr>
+
+        <div class="control-group form-horizontal">
+            <div class="controls">
+                <button name="index" class="btn" id="index"><i class="icon-plus"></i> Indexar a base</button>
+            </div>
+        </div>
+
+        <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+        <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+        <p>¿Volver? <a href="index.html">Inicio</a></p>
+    </div>
+</body>
+</html>

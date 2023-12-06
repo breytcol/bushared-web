@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/registro.js"></script>
+</head>
+<body>
+    <div id="registro-container" class="container">
+        <h2>Registro</h2>
+        <form id="registroForm" method="post">
+            <label for="newUsername">Nuevo Usuario:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Nueva Contraseña:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="button" onclick="registrarUsuario()">Registrar</button>
+        </form>
+        <p id="registroMessage"></p>
+
+        <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+		<p>¿Volver? <a href="index.html">Inicio</a></p>
+    </div>
+</body>
+</html>
